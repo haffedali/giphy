@@ -4,18 +4,22 @@
 <head>
   <meta charset="utf-8">
   <title>Animal Buttons</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
-  <button data-animal="cat">meow</button>
-  <button data-animal="dog">woof</button>
-  <button data-animal="bird">chirp</button>
-  <div id="gifs-appear-here">
+  <div id="button-bar"></div>
+
+  <div>
+    <input id="gif-text"></input>
+    <button id="gif-search">gimme gifs</button>
+  </div>
+
+  <div id="gifs">
   </div>
 
 
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="logic.js"></script>
 </body>
 
 </html>
